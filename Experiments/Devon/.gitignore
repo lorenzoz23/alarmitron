@@ -1,0 +1,27 @@
+
+
+
+
+
+
+#built application files
+*.apk
+*.ap_
+
+#files for the dex VM
+*.dex
+*.class
+bin/
+gen/
+local.properties
+thumbs.db
+.DS_Store
+*.iml
+.idea
+.gradle
+build/
+.navigation
+captures/
+output.json
+obj/
+.externalNativeBuild

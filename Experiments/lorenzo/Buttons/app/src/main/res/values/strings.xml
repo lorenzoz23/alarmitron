@@ -1,0 +1,10 @@
+<resources>
+    <string name="b_app_name">Seriously?</string>
+    <string name="b_welcome">welcome to random number guesser</string>
+    <string name="b_initial_user_request">enter a number between 0-10</string>
+    <string name="b_next">next</string>
+    <string name="b_number_generator">generate random number</string>
+    <string name="b_correct_answer">oh wow! you guessed correctly!</string>
+    <string name="b_incorrect_answer">oh no! better luck next time!</string>
+    <string name="b_guess">ENTER A NUMBER AND PRESS NEXT</string>
+</resources>

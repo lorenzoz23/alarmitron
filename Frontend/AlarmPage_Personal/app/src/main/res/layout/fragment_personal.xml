@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/personal_fragment_vGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="@string/alarmitron_personal">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmitron_image_login"
+        android:background="@drawable/ic_account_circle_black_48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/alarmitron_recView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/alarmitron_image_login"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"
+        android:scrollbars="vertical"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton_personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showTimePickerDialog"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+
+</RelativeLayout>
